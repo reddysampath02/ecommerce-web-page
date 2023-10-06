@@ -1,11 +1,15 @@
 body {
-    padding: 20px;
-    background-color: white
+    background-color: white;
+    overflow-x: hidden;
 }
 
 main {
     background-color: lightgray;
+    box-sizing: border-box;
+    overflow-wrap: normal;
 }
+
+
 /* ----------- HEADER OPEN  ----------- */
 header {
     position: sticky;
@@ -141,6 +145,9 @@ strong {
     outline: 10PX ;
     border: 1px solid silver;
 }
+.div3 img{
+    width: 100%;
+}
 .p5 {
     font-size: 25px;
     font-weight: bold;
@@ -203,7 +210,7 @@ strong {
     padding: 10px;
     padding-top: 5px;
 }
-.div4 .pi {
+.div4 img {
     width: 100%;
 }
 .p10 {
@@ -277,7 +284,12 @@ strong {
 }
 
 /* ------------ OUR BLOGS OPEN --------------*/
-
+.blog {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 80px;
+    margin-right: 80px;
+}
 .div5 {
     border: 0.5px solid black;
     background-color: white;
@@ -285,6 +297,7 @@ strong {
     text-align: center;
     padding-bottom: 20px;
 }
+
 .div5 .b1 {
     padding-bottom: 20px;
     width: 100%;
@@ -296,45 +309,39 @@ strong {
 .user {
     color: orange;
     display: inline;
-    position: relative;
-    right: 60px;
+    margin-right: 5px;
 }
 .calender {
     color: orange;
     display: inline;
-    position: relative;
-    left: 55px;
+/* margin-left: 5px; */
 
 }
 .p20 {
     font-size: 25px;
     font-weight: bold;
-    position: relative;
-    right: 50px;
+    position: relative; 
     bottom: 5px;
+
 }
 .p21 {
     font-size: 25px;
     font-weight: bold;
     position: relative;
-    right: 40px;
     bottom: 20px;
 }
 .p22 {
     font-size: 17px;
     position: relative;
-    right: 5px;
     bottom: 25px;
 }
 .p23 {
     font-size: 17px;
     position: relative;
-    right: 30px;
     bottom: 30px;
 }
 .div5 .a1 {
     position: relative;
-    right: 90px;
     bottom: 20px;
 }
 
@@ -412,3 +419,125 @@ input {
 }
 
 /* ------------ THE END ------------ */
+
+
+/* ---------- MEAEDIA QUIRES --------------- */
+
+    @media only screen and (min-width: 720px) and (max-width: 1020px){
+        header {
+            grid-template-columns: repeat(3,1fr);
+        }
+    }
+    @media only screen and (min-width: 540px) and (max-width:720px) {
+        section{
+            grid-template-columns: repeat(2,1fr);
+        }
+    }
+    @media only screen and (min-width:0px) and (max-width:540px){
+        section{
+            grid-template-columns: repeat(1,1fr);
+        }
+    header nav ul li a {
+        font-size: 14px;
+    }
+    .logo a {
+        font-size: 18px;
+    }
+}
+
+/*  features */
+
+
+@media only screen and (min-width: 720px) and (max-width: 1020px){
+    .Features{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (min-width: 540px) and (max-width:720px) {
+    .Features{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:540px){
+    .Features{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/*  Products */
+
+@media only screen and (min-width: 730px) and (max-width: 1020px){
+    .product{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (min-width: 546px) and (max-width:730px) {
+    .product{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:546px){
+    .product{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+/* categories */
+
+@media only screen and (min-width: 870px) and (max-width: 1020px){
+    .categories{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media only screen and (min-width: 720px) and (max-width: 870px){
+    .categories{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (min-width: 540px) and (max-width:720px) {
+    .categories{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:540px){
+    .categories{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* blogs */
+
+@media only screen and (min-width: 720px) and (max-width: 1020px){
+    .blog{
+        grid-template-columns: repeat(3,1fr);
+    }
+}
+@media only screen and (min-width: 540px) and (max-width:720px) {
+    .blog{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:540px){
+    .blog{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+/* footer */
+
+@media only screen and (min-width: 720px) and (max-width: 1020px){
+    .foot{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width: 600px) and (max-width:720px) {
+    .foot{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (min-width:0px) and (max-width:600px){
+    .foot{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
