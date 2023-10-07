@@ -19,31 +19,39 @@ header {
     padding-bottom: 15px;
     background-color: white;
     z-index: 1;
-    
+
 }
+
 .hd1 {
     display: grid;
     grid-template-columns: 30% 50% 20%;
 }
+
 a {
     text-decoration: none;
     color: black;
 }
+
 .logo {
     margin-left: 100px;
     margin-top: 5px;
 }
+
 .hd2 {
     font-size: 20px;
     color: blue;
 }
-.hd3,.fa-basket-shopping {
+
+.hd3,
+.fa-basket-shopping {
     font-size: 20px;
     color: orange;
 }
+
 ul {
     margin: 10px;
 }
+
 li {
     display: inline;
     margin-top: -20px;
@@ -52,18 +60,22 @@ li {
     font-size: 15px;
     color: black;
 }
+
 li a:hover {
     color: orange;
 }
+
 .hicon {
     margin-top: 5px;
 }
+
 .hicon i {
     margin-right: 2px;
     padding: 7px;
     background-color: lightgrey;
     font-size: 15px;
 }
+
 .hicon i:hover {
     border: 0.5px solid black;
 }
@@ -75,33 +87,40 @@ li a:hover {
     text-align: center;
     padding: 0;
 }
+
 #container {
     position: relative;
 }
+
 .bannerimg {
     width: 100%;
     height: auto;
 }
+
 .div1 {
     position: absolute;
-    top: 40%; 
-    left: 46%; 
-    transform: translate(-50%, -50%); 
+    top: 40%;
+    left: 46%;
+    transform: translate(-50%, -50%);
     width: 100%;
 }
+
 strong {
     color: orange;
 }
-.div2{
+
+.div2 {
     position: absolute;
-    top: 62%; 
-    left: 46%; 
-    transform: translate(-50%, -50%); 
+    top: 62%;
+    left: 46%;
+    transform: translate(-50%, -50%);
     width: 100%;
 }
-.p1{
+
+.p1 {
     font-size: 35px;
 }
+
 .p3 {
     font-size: 21px;
     line-height: 1.5;
@@ -116,6 +135,7 @@ strong {
     font-size: 20px;
     border-radius: 5px;
 }
+
 .a1:hover {
     color: orange;
     border: 2px solid orange;
@@ -131,32 +151,38 @@ strong {
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .our {
     text-align: center;
     font-size: 40px;
 }
+
 .our1 {
     color: white;
     background-color: orange;
     clip-path: polygon(100% 0%, 91% 50%, 100% 100%, 0 100%, 9% 50%, 0 0);
     padding: 5px 20px;
 }
+
 .card {
     padding: 5px;
     background-color: white;
     margin: 7px;
 }
+
 .div3 {
     padding: 10px;
     margin: 3px;
     text-align: center;
     padding-bottom: 25px;
-    outline: 10PX ;
+    outline: 10PX;
     border: 1px solid silver;
 }
-.div3 img{
+
+.div3 img {
     width: 100%;
 }
+
 .p5 {
     font-size: 25px;
     font-weight: bold;
@@ -164,6 +190,7 @@ strong {
     top: -15px;
     margin-bottom: -3px;
 }
+
 .p8 {
     font-size: 25px;
     font-weight: bold;
@@ -171,21 +198,25 @@ strong {
     top: 12px;
     padding-bottom: 20px;
 }
+
 .p9 {
     font-size: 25px;
     font-weight: bold;
     position: relative;
     bottom: 5px;
 }
+
 .p7 {
     padding-bottom: 15px;
 }
+
 .a2 {
     color: black;
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px 20px;
 }
+
 .a2:hover {
     color: orange;
     border: 2px solid orange;
@@ -200,6 +231,7 @@ strong {
     font-size: 40px;
     padding-bottom: 10px;
 }
+
 .pro1 {
     color: white;
     background-color: orange;
@@ -207,12 +239,14 @@ strong {
     clip-path: polygon(100% 0%, 91% 50%, 100% 100%, 0 100%, 9% 50%, 0 0);
     padding: 5px 20px;
 }
+
 .product {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .div4 {
     outline: 8px;
     border: 1px solid silver;
@@ -221,28 +255,34 @@ strong {
     padding: 10px;
     padding-top: 5px;
 }
+
 .div4 img {
     width: 100%;
 }
+
 .p10 {
     font-size: 25px;
     font-weight: bold;
     position: relative;
     bottom: 20px;
 }
+
 .p11 {
     font-size: 20px;
     position: relative;
     bottom: 30px;
 }
+
 .p12 {
     padding-bottom: 15px;
     position: relative;
     bottom: 30px;
 }
+
 .p12 i {
     color: orange;
 }
+
 .div4 .a2 {
     position: relative;
     bottom: 30px;
@@ -256,6 +296,7 @@ strong {
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .p13 {
     font-size: 20px;
     position: relative;
@@ -274,21 +315,26 @@ strong {
     text-align: center;
     margin-bottom: -5px;
 }
+
 .p14 {
     margin-bottom: -5px;
 }
+
 .p15 {
     margin-bottom: -5px;
 }
+
 .p16 {
     margin-bottom: -5px;
 }
+
 .p18 {
     font-size: 22px;
     font-weight: bolder;
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
+
 .p19 {
     color: orange;
     margin-top: -5px;
@@ -301,6 +347,7 @@ strong {
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .div5 {
     border: 0.5px solid black;
     background-color: white;
@@ -313,42 +360,50 @@ strong {
     padding-bottom: 20px;
     width: 100%;
 }
+
 .div5 .b2 {
     padding-bottom: 30px;
     width: 100%;
 }
+
 .user {
     color: orange;
     display: inline;
     margin-right: 5px;
 }
+
 .calender {
     color: orange;
     display: inline;
 }
+
 .p20 {
     font-size: 25px;
     font-weight: bold;
-    position: relative; 
+    position: relative;
     bottom: 5px;
 
 }
+
 .p21 {
     font-size: 25px;
     font-weight: bold;
     position: relative;
     bottom: 20px;
 }
+
 .p22 {
     font-size: 17px;
     position: relative;
     bottom: 25px;
 }
+
 .p23 {
     font-size: 17px;
     position: relative;
     bottom: 30px;
 }
+
 .div5 .a1 {
     position: relative;
     bottom: 20px;
@@ -359,20 +414,24 @@ strong {
 footer {
     background-color: white;
 }
+
 .foot {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-left: 80px;
     margin-right: 80px;
 }
+
 .achi {
     color: blue;
     font-size: 25px;
 }
+
 .it {
     color: orange;
     font-size: 25px;
 }
+
 .footicon i {
     color: black;
     font-size: 20px;
@@ -382,23 +441,28 @@ footer {
     background-color: lightgrey;
     padding: 8px;
 }
+
 .footicon i:hover {
     border: 1px solid black;
 }
+
 .con-icon i {
     color: orange;
     margin-right: 5px;
 }
+
 .p24 {
     font-size: 19px;
 }
+
 input {
     font-size: 15px;
     padding: 8px;
     border: 0.01px solid lightgray;
     border-radius: 5px;
-    
+
 }
+
 .sub {
     font-size: 20px;
     border: 2px solid black;
@@ -407,14 +471,17 @@ input {
     position: relative;
     top: 20px;
 }
+
 .sub:hover {
     color: orange;
     border: 2px solid orange;
 }
+
 .payment {
     position: relative;
     top: 40px;
 }
+
 .create {
     margin-left: 80px;
     margin-right: 80px;
@@ -423,14 +490,16 @@ input {
     border-top: 1px solid black;
     margin-top: 20px;
 }
+
 .p25 {
     font-size: 20px;
 }
+
 .p26 {
     color: orange;
 }
 
-.links:hover{
+.links:hover {
     color: orange;
 }
 
@@ -439,183 +508,208 @@ input {
 
 /* ---------- MEAEDIA QUIRES --------------- */
 
-    @media only screen and (min-width: 720px) and (max-width: 1020px){
-        header {
-            grid-template-columns: repeat(3,1fr);
-        }
+/* ---------------------- Header ------------------------- */
+
+@media only screen and (min-width: 720px) and (max-width: 1020px) {
+    header {
+        grid-template-columns: repeat(3, 1fr);
     }
-    @media only screen and (min-width: 540px) and (max-width:720px) {
-        section{
-            grid-template-columns: repeat(2,1fr);
-        }
-        header nav ul li a {
-            font-size: 14px;
-        }
-        .logo a {
-            font-size: 15px;
-        }
-        .hicon i{
-            font-size: 10px;
-        }
+}
+
+@media only screen and (min-width: 540px) and (max-width:720px) {
+    section {
+        grid-template-columns: repeat(2, 1fr);
     }
-    @media only screen and (min-width:0px) and (max-width:540px){
-        section{
-            grid-template-columns: repeat(1,1fr);
-        }
+
     header nav ul li a {
         font-size: 14px;
     }
+
     .logo a {
         font-size: 15px;
     }
-    .hicon i{
+
+    .hicon i {
         font-size: 10px;
     }
 }
 
-/* banner */
-@media only screen and (min-width: 720px) and (max-width: 1020px){
-    .banner{
+@media only screen and (min-width:0px) and (max-width:540px) {
+    section {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    header nav ul li a {
+        font-size: 14px;
+    }
+
+    .logo a {
+        font-size: 15px;
+    }
+
+    .hicon i {
+        font-size: 10px;
+    }
+}
+
+/* ------------------------------ banner ------------------------- */
+@media only screen and (min-width: 720px) and (max-width: 1020px) {
+    .banner {
         .p1 {
             font-size: 30px;
         }
-    
+
         .p3 {
             font-size: 18px;
             padding-top: 25px;
         }
-    
+
         .a1 {
             font-size: 16px;
         }
     }
 }
+
 @media only screen and (min-width: 540px) and (max-width:720px) {
-    .banner{
+    .banner {
         .p1 {
             font-size: 25px;
         }
-    
+
         .p3 {
             font-size: 15px;
             padding-top: 25px;
         }
-    
+
         .a1 {
             font-size: 13px;
         }
     }
 }
-@media only screen and (min-width:0px) and (max-width:540px){
-    .banner{
+
+@media only screen and (min-width:0px) and (max-width:540px) {
+    .banner {
         .p1 {
             font-size: 20px;
         }
-    
+
         .p3 {
             font-size: 12px;
             padding-top: 25px;
         }
-    
+
         .a1 {
             font-size: 10px;
         }
     }
 }
 
-/*  features */
+/* ----------------------- features ----------------------------- */
 
 
-@media only screen and (min-width: 720px) and (max-width: 1020px){
-    .Features{
-        grid-template-columns: repeat(3,1fr);
+@media only screen and (min-width: 720px) and (max-width: 1020px) {
+    .Features {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media only screen and (min-width: 540px) and (max-width:720px) {
-    .Features{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media only screen and (min-width:0px) and (max-width:540px){
-    .Features{
-        grid-template-columns: repeat(1,1fr);
+    .Features {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/*  Products */
-
-@media only screen and (min-width: 730px) and (max-width: 1020px){
-    .product{
-        grid-template-columns: repeat(3,1fr);
+@media only screen and (min-width:0px) and (max-width:540px) {
+    .Features {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* --------------------------- Products ------------------------ */
+
+@media only screen and (min-width: 730px) and (max-width: 1020px) {
+    .product {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media only screen and (min-width: 546px) and (max-width:730px) {
-    .product{
-        grid-template-columns: repeat(2,1fr);
+    .product {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
-@media only screen and (min-width:0px) and (max-width:546px){
-    .product{
-        grid-template-columns: repeat(1,1fr);
+
+@media only screen and (min-width:0px) and (max-width:546px) {
+    .product {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
 
-/* categories */
+/* -------------------- categories -------------------------- */
 
-@media only screen and (min-width: 870px) and (max-width: 1020px){
-    .categories{
-        grid-template-columns: repeat(4,1fr);
+@media only screen and (min-width: 870px) and (max-width: 1020px) {
+    .categories {
+        grid-template-columns: repeat(4, 1fr);
     }
 }
-@media only screen and (min-width: 720px) and (max-width: 870px){
-    .categories{
-        grid-template-columns: repeat(3,1fr);
+
+@media only screen and (min-width: 720px) and (max-width: 870px) {
+    .categories {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
+
 @media only screen and (min-width: 540px) and (max-width:720px) {
-    .categories{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media only screen and (min-width:0px) and (max-width:540px){
-    .categories{
-        grid-template-columns: repeat(1,1fr);
+    .categories {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* blogs */
-
-@media only screen and (min-width: 720px) and (max-width: 1020px){
-    .blog{
-        grid-template-columns: repeat(3,1fr);
+@media only screen and (min-width:0px) and (max-width:540px) {
+    .categories {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* ---------------------- blogs ---------------------- */
+
+@media only screen and (min-width: 720px) and (max-width: 1020px) {
+    .blog {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media only screen and (min-width: 540px) and (max-width:720px) {
-    .blog{
-        grid-template-columns: repeat(2,1fr);
-    }
-}
-@media only screen and (min-width:0px) and (max-width:540px){
-    .blog{
-        grid-template-columns: repeat(1,1fr);
+    .blog {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
-/* footer */
-
-@media only screen and (min-width: 720px) and (max-width: 1020px){
-    .foot{
-        grid-template-columns: repeat(2,1fr);
+@media only screen and (min-width:0px) and (max-width:540px) {
+    .blog {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* ------------------ footer -------------------- */
+
+@media only screen and (min-width: 720px) and (max-width: 1020px) {
+    .foot {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
 @media only screen and (min-width: 600px) and (max-width:720px) {
-    .foot{
-        grid-template-columns: repeat(2,1fr);
+    .foot {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
-@media only screen and (min-width:0px) and (max-width:600px){
-    .foot{
-        grid-template-columns: repeat(1,1fr);
+
+@media only screen and (min-width:0px) and (max-width:600px) {
+    .foot {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
+/* --------------  MEAEDIA QUIRES ------------------- */
