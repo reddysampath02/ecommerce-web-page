@@ -25,13 +25,15 @@ header {
 .hd1 {
     display: grid;
     grid-template-columns: 30% 50% 20%;
+    background-color: white;
 }
-
-a {
+li a{
     text-decoration: none;
     color: black;
 }
-
+div a{
+    text-decoration: none;
+}
 .logo {
     margin-left: 100px;
     margin-top: 5px;
@@ -74,6 +76,7 @@ li a:hover {
     padding: 7px;
     background-color: lightgrey;
     font-size: 15px;
+    color: black;
 }
 
 .hicon i:hover {
@@ -119,11 +122,13 @@ strong {
 
 .p1 {
     font-size: 35px;
+    color: black;
 }
 
 .p3 {
     font-size: 21px;
     line-height: 1.5;
+    color: black;
 }
 
 .a1 {
@@ -143,6 +148,35 @@ strong {
     border-radius: 5px;
 }
 
+/* LOGIN FORM */
+#loginModal{
+    width: 300px ;
+}
+.mandatory{
+    color: red;
+}
+.dNon{
+    color: red;
+    font-size: 15px;
+    display: none;
+}
+form label{
+    margin: 5px;
+    color: black;
+}
+form input{
+    margin: 5px;
+}
+#Login{
+  margin-left: 75px;
+}
+.modal-body a{
+    color: orange;
+}
+h6{ 
+    color: black;
+}
+
 /* ------------ OUR FEATURES OPEN --------------*/
 
 .Features {
@@ -155,6 +189,7 @@ strong {
 .our {
     text-align: center;
     font-size: 40px;
+    margin: 30px 0px;
 }
 
 .our1 {
@@ -162,6 +197,7 @@ strong {
     background-color: orange;
     clip-path: polygon(100% 0%, 91% 50%, 100% 100%, 0 100%, 9% 50%, 0 0);
     padding: 5px 20px;
+    margin: 30px 0px;
 }
 
 .card {
@@ -230,14 +266,15 @@ strong {
     text-align: center;
     font-size: 40px;
     padding-bottom: 10px;
+    margin: 30px 0px;
 }
 
 .pro1 {
     color: white;
     background-color: orange;
-    /* padding: 5px; */
     clip-path: polygon(100% 0%, 91% 50%, 100% 100%, 0 100%, 9% 50%, 0 0);
     padding: 5px 20px;
+    margin: 30px 0px;
 }
 
 .product {
@@ -413,6 +450,7 @@ strong {
 
 footer {
     background-color: white;
+    padding: 20px 0px;
 }
 
 .foot {
@@ -713,3 +751,8 @@ input {
 }
 
 /* --------------  MEAEDIA QUIRES ------------------- */
+
+
+#forget{
+    color: aqua;
+}
